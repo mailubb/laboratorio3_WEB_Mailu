@@ -1,0 +1,16 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.alignment-container {
+  align-items: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  align-self: center;
+  justify-self: center;
+}

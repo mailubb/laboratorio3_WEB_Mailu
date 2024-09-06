@@ -1,0 +1,51 @@
+.expense-list {
+    margin-top: 20px;
+    padding: 0;
+    list-style-type: square;
+}
+
+.expense-list h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+.expense-item {
+    margin-bottom: 20px; 
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.expense-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.expense-name {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.expense-category {
+    font-style: capitalize;
+    color: #666;
+}
+
+.expense-amount {
+    font-size: 1.2rem;
+    color: #000000; 
+    font-weight: bold;
+    text-align: end;
+}
+
+.expense-date {
+    font-size: 0.9rem;
+    color: #999;
+    text-align: right;
+    margin-top: 5px;
+}

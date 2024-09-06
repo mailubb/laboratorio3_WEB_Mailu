@@ -1,0 +1,27 @@
+.budget_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar el contenido horizontalmente */
+    gap: 10px; /* Espacio entre el input y el botón */
+}
+
+.budget_container input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.budget_container button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4b2ece;
+    color: white;
+    cursor: pointer;
+    width: 107%;
+}
+
+.budget_container button:hover{
+    background-color: #6c4ff5;
+}

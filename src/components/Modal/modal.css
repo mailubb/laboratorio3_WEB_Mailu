@@ -1,0 +1,60 @@
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 500px;
+    max-width: 100%;
+    text-align: center;
+    gap: 20px;
+    align-items: center;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.modal-actions{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+input {
+    margin-top: 10px;
+    padding: 5px;
+    width: 100%;
+    border-radius: 4px;
+    background-color: #ccc;
+    color: rgb(37, 37, 37);
+    border: none;
+    padding: 8px;
+    width: 70%;
+}
+
+.select-2{
+    margin-top: 10px;
+    padding: 5px;
+    width: 100%;
+    border-radius: 4px;
+    background-color: #ccc;
+    color: rgb(37, 37, 37);
+    border: none;
+    padding: 8px;
+    width: 73%;
+}
